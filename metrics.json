@@ -1,0 +1,90 @@
+{
+  "macro_f1": 0.772329185664469,
+  "n_train": 51555,
+  "n_test": 12900,
+  "confusion_matrix": [
+    [
+      8403,
+      0,
+      0,
+      0
+    ],
+    [
+      160,
+      34,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      953,
+      213
+    ],
+    [
+      0,
+      0,
+      111,
+      3024
+    ]
+  ],
+  "class_order": [
+    "Low",
+    "Medium",
+    "High",
+    "Critical"
+  ],
+  "top_features": {
+    "displacement_mm": 0.1593,
+    "cum_displacement": 0.1365,
+    "displacement_mm_roll_mean": 0.1177,
+    "vibration_rms_roll_mean": 0.1103,
+    "vibration_rms": 0.0985,
+    "vibration_peak_roll_mean": 0.087,
+    "tilt_deg_roll_mean": 0.0468,
+    "tilt_deg": 0.0434,
+    "vibration_peak": 0.0334,
+    "vibration_peak_roll_std": 0.0322,
+    "dominant_frequency_hz_roll_mean": 0.0189,
+    "dominant_frequency_hz": 0.013
+  },
+  "per_class": {
+    "Low": {
+      "precision": 0.9813149597103819,
+      "recall": 1.0,
+      "f1-score": 0.990569374042202,
+      "support": 8403.0
+    },
+    "Medium": {
+      "precision": 0.9444444444444444,
+      "recall": 0.17525773195876287,
+      "f1-score": 0.2956521739130435,
+      "support": 194.0
+    },
+    "High": {
+      "precision": 0.8956766917293233,
+      "recall": 0.8159246575342466,
+      "f1-score": 0.8539426523297491,
+      "support": 1168.0
+    },
+    "Critical": {
+      "precision": 0.9341983317886933,
+      "recall": 0.9645933014354067,
+      "f1-score": 0.9491525423728814,
+      "support": 3135.0
+    },
+    "accuracy": 0.9623255813953489,
+    "macro avg": {
+      "precision": 0.9389086069182108,
+      "recall": 0.7389439227321041,
+      "f1-score": 0.772329185664469,
+      "support": 12900.0
+    },
+    "weighted avg": {
+      "precision": 0.961556122074881,
+      "recall": 0.9623255813953489,
+      "f1-score": 0.9576828845020064,
+      "support": 12900.0
+    }
+  }
+}
